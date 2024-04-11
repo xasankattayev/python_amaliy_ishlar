@@ -59,4 +59,38 @@
 # else:
 #     print(f"{soz.title()} so'z {tarjima} deb tarjima qilinadi")
 #----------------------------------------------------------------
-
+# talaba={
+#     'ism':'Olim',
+#     'familya':'salimov',
+#     'yosh': 22,
+#     'fakultet':'Matematika va informatika',
+#     'kurs':4
+# }
+# for kalit, qiymat in talaba.items():
+#     print(f"Kalit: {kalit}")
+#     print(f"Qiymat: {qiymat}")
+#----------------------------------------------------------------
+# mahsulotlar={
+#     'olma': 10000,
+#     'anor': 20000,
+#     'uzum': 40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+# }
+# bozorlik=['anor', 'uzum', 'non', 'baliq']
+# for m in mahsulotlar:
+#     if m in bozorlik:
+#         print(f"{m.title()} {mahsulotlar[m]} so'm")
+#----------------------------------------------------------------
+# telefonlar={
+#     'ali': 'ipone x',
+#     'xasan':'samsung 51a',
+#     'xusan':'honor x10',
+#     'aloviddin':'samsung 10s',
+#     'jafar': 'samsung 51a',
+#     'madina': 'samsung 10a',
+#     'guli': 'homor 7x'
+# }
+# for tel in set(telefonlar.values()):
+#     print(tel.title())
+#----------------------------------------------------------------
