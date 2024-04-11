@@ -242,13 +242,13 @@
 #     if not (son%n):
 #         print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
 #----------------------------------------------------------------
-soz=int(input("So'z kiriting: "))
+# soz=int(input("So'z kiriting: "))
 
-for n in soz:
-    if n=="aeiuo" or "AEIUO":
-        print(n)
-        continue
-print("Finish")
+# for n in soz:
+#     if n=="aeiuo" or "AEIUO":
+#         print(n)
+#         continue
+# print("Finish")
         
 
 
