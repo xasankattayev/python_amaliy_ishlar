@@ -11,4 +11,20 @@
 # talaba['fakultet']='Axborot texnologiyalar'
 # print(talaba)
 #----------------------------------------------------------------
+# otam={'otam':'mamatov olim', "tugilgan yili":1965, 'shahri':'surxondaryo'}
+# print(f"{otam['otam'].title()},\
+#       {otam['tugilgan yili']}-yilda tug'ilgan,\
+#        {otam['shahri'].title()} viloyatida yashaydi")
+# onam={'onam':'imamova halima', "tugilgan yili":1965, 'shahri':'surxondaryo'}
+# print(f"{onam['onam'].title()},\
+#       {onam['tugilgan yili']}-yilda tug'ilgan,\
+#        {onam['shahri'].title()} viloyatida yashaydi")
+#----------------------------------------------------------------
+# ism=str(input("Otangizni F.I.Oni kiriting: "))
+# ism1=str(input("Onangizni F.I.Oni kiriting: "))
+# ism=ism.title()
+# ism1=ism1.title()
 
+
+# print(f"Mening otam {ism}\
+# \nMening onam {ism1}")
