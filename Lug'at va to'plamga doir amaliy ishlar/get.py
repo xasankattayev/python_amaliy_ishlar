@@ -28,3 +28,35 @@
 
 # print(f"Mening otam {ism}\
 # \nMening onam {ism1}")
+#----------------------------------------------------------------
+# men={'nomi':'manti', 'miqdori':'10 dona', 'turi':'xonim'}
+# ukam={'nomi':'osh', 'miqdori':'1 pors', 'turi':'uzbekcha'}
+# akam={'nomi':'qovurma', 'miqdori':'1 pors', 'turi':'shurva'}
+# print (f"{men['nomi']},\
+#        {men['miqdori']}-shunchaga tuyadi,\
+#        {men['turi']}-yaxshi ko'radi")
+# print (f"{ukam['nomi']},\
+#        {ukam['miqdori']}-shunchaga tuyadi,\
+#        {ukam['turi']}-yaxshi ko'radi")
+# print (f"{akam['nomi']},\
+#        {akam['miqdori']}-shunchaga tuyadi,\
+#        {akam['turi']}-yaxshi ko'radi")
+#----------------------------------------------------------------
+
+# python_lugat={'print':'konsolga chiqaradiga funksiya hisoblanadi', "f-string":"o'zgaruvchilarni birlashtirish uchun ishlatiladi",
+# 'upper':"har bir harfni bosh harfa o'zgartiradi", "lower":"har bir harfni kichik harga o'zgartiradi",
+# "title": "har bir so'zning birinchi harfini bosh harfga o'tkazadi", "capitalize":"so'zning birinchi harfini katta bilan yozad",
+# "lstrip":"matn boshidagi bo'shliqni oladi", "rstrip":"matn oxiridagi bo'shliqni oladi", "strip": "matn boshi va oxiridagi bo'shliqni oladi",
+# "input": "kirituvchi funksiya hisoblanadi"}
+
+# soz=input("Lug'aviy so'z kiriting: ").lower()
+# print(python_lugat.get(soz,"Bunday soz mavjud emas"))
+# soz=input("Lug'aviy so'z kiriting: ").lower()
+# tarjima=python_lugat.get(soz)
+
+# if tarjima==None:
+#     print("Bunday soz mavjud emas")
+# else:
+#     print(f"{soz.title()} so'z {tarjima} deb tarjima qilinadi")
+#----------------------------------------------------------------
+
