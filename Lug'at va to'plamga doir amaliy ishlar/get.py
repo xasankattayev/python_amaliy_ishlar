@@ -129,3 +129,59 @@
 #     print ("Bizda bunday ma'lumot yo'q")
 # else: 
 #     print(f"{dav.upper()}ning poytaxti {shahar.title()} shahri")
+#----------------------------------------------------------------
+# taomlar={
+#     'somsa': 10000,
+#     'non': 5000,
+#     'biqtirma':25000,
+#     'shashlik':36000,
+#     'osh':30000,
+#     'gosht':120000,
+#     'kartoshka free':25000,
+#     'nondog':18000,
+#     'choy':3000,
+#     'limon choy':5000,
+    
+# }
+# buyurtma=[]
+# print("Hurmatli mijoz 3 ta ovqat buyurtma bering")
+# for i in range (3):
+#     buyurtma.append(input(f"{i+1}-buyurtmani kiritng: "))
+# for zakas in taomlar:
+#     if zakas in buyurtma:
+#         print(f"{zakas.title()} {taomlar[zakas]} so'm")
+#     else:
+#         print("Bizda bunday taom yo'q")
+# for zakas1 in buyurtma:
+#     if zakas1 not in taomlar:
+#         print(f"Iltimos, restoranga {zakas1}ni ham olib keling")
+#----------------------------------------------------------------
+# products=[
+#     {'product': 'apple', 'price': 500, 'discount': 0},
+#     {'product': 'banana', 'price': 200, 'discount': 10},
+#     {'product': 'melon', 'price': 150, 'discount': 50}
+# ]
+# for i in products:
+#     i['price_with_discount']=int(i['price'])-(int(i['price'])/100*i['discount'])
+#     print(i)
+#----------------------------------------------------------------
+# cars=[
+#     {'brand': 'BMW 125', 'year': 1990, 'repair': False},
+#     {'brand': 'Lacetti 3', 'year': 2016, 'repair': False},
+#     {'brand': 'BYD', 'year': 2023, 'repair': False}
+# ]
+# for i in cars:
+#     if 20 < 2023-i['year']:
+#         i['repair']=True
+#         print(i)
+#----------------------------------------------------------------
+# products=[
+#     {'product': 'apple', 'likes':[5,4,3,2,1,4]},
+#     {'product': 'banana', 'likes':[4,4,4,3,3,3]},
+#     {'product':'melon', 'likes':[5,5,5,4,3,4]}
+    
+# ]
+# for i in products:
+#     i['score']=round(sum(i['likes'])/len(i['likes']),2)
+#     print(i)
+#----------------------------------------------------------------
