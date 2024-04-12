@@ -94,3 +94,38 @@
 # for tel in set(telefonlar.values()):
 #     print(tel.title())
 #----------------------------------------------------------------
+# davlatlar={
+#     'O\'zbekiston': 'Toshkent',
+#     'Rossiya': 'Moskva',
+#     'Turkiya': 'Anqara',
+#     'Amerika': 'Los anjels',
+#     'Kanada': 'Kanada',
+#     'Argentina': 'Kuala lumpr'
+# }
+# print ("Davlatlarning nomlari")
+# for dav in davlatlar:
+#     print(dav.title())
+# print("Davlatlarning poytaxtlari")
+# for dav in davlatlar.values():
+#     print(dav.title())
+#----------------------------------------------------------------
+# davlatlar={
+#     'O\'zbekiston': 'Toshkent',
+#     'Rossiya': 'Moskva',
+#     'Turkiya': 'Anqara',
+#     'Amerika': 'Los anjels',
+#     'Kanada': 'Kanada',
+#     'Argentina': 'Kuala lumpr'
+# }
+
+# for dav in sorted(davlatlar):
+#     print(dav.upper())
+# print("\nDavlatlarning poytaxtlari")
+# for poytaxt in sorted(davlatlar.values()):
+#     print(poytaxt.title())
+# dav=input("Davlatlarning nomini yozing: ").lower()
+# shahar=davlatlar.get(dav)
+# if shahar == None:
+#     print ("Bizda bunday ma'lumot yo'q")
+# else: 
+#     print(f"{dav.upper()}ning poytaxti {shahar.title()} shahri")
