@@ -38,4 +38,17 @@
 #             print("Muzeyga kirish bepul")
 # print('Yoshingizni qayta kiriting')
 #----------------------------------------------------------
+# savol="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+# savol+="Musbat son kiriting: "
+# savol="(dasturni to'xtatish uchun 'exit' deb yozing): "
 
+# while True:
+#     qiymat =float(input(savol))
+#     if qiymat <0:
+#         continue
+#     elif qiymat =='exit':
+#         break
+#     else:
+#         ildiz=round(float((qiymat)**(0.5)),2)
+#         print(f"{qiymat} ning ildizi {ildiz} ga teng")
+#---------------------------------------------------------
