@@ -52,3 +52,64 @@
 #         ildiz=round(float((qiymat)**(0.5)),2)
 #         print(f"{qiymat} ning ildizi {ildiz} ga teng")
 #---------------------------------------------------------
+# ismlar=[]
+# print("Yaqin dos'stlaringiz ro'yxatini tuzamiz")
+# n=1
+# while True:
+#     savol=f"{n}-do'stingiz ismini kiriting: "
+#     ism=input(savol)
+#     ismlar.append(ism)
+#     javob=input("Yana ism qo'shasizmi? (ha/yo'q): ")
+#     if javob =='ha':
+#         n+=1
+#         continue
+#     else:
+#         break
+# print("Ro'yxat tuzildi")
+# print("Do'stlaringiz ro'yxati:")
+# for ism in ismlar:
+#     print(ism.title())
+#--------------------------------------------------------
+# print("Do'stlaringiz yoshini saqlaymiz.")
+# dostlar={}
+# ishora=True
+# while ishora:
+#     ism=input("Do'stingiz ismini kiriting: ")
+#     yosh=input(f"{ism.title()} ning yoshini kiriting: ")
+#     dostlar[ism]=int(yosh)
+#     javob=input("Yana ma'lumot qo'shasizmi (ha/yo'q): ")
+#     if javob =="yo'q":
+#         ishora=False
+#     for ism,yosh in dostlar.items():
+#         print(f"{ism.title()} {yosh} yoshda")
+#----------------------------------------------------------------
+# talabalar=['hasan', 'husan', 'olim', 'botir']
+# baholangan_talabalar={}
+# while talabalar:
+#     talaba=talabalar.pop()
+#     baho=input(f"{talaba.title()} ning bahosini kiriting: ")
+#     print(f"{talaba.title()} baholandi")
+#     baholangan_talabalar[talaba]=baho
+#----------------------------------------------------------------
+
+# buyurtma=[]
+# n=1
+# while True:
+#     buyurtma1=(f"{n}-buyurtma nomini kiriting: ")
+#     mahsulot=input(buyurtma1.title())
+#     buyurtma.append(mahsulot)
+#     text=input(f"Yana buyurtma berasizmi?")
+#     if text=="ha":
+#         n+=1
+#         continue
+#     else:
+#         break
+# for mahsulot in buyurtma:
+#     print(mahsulot)
+#----------------------------------------------------------------
+
+
+
+
+
+
