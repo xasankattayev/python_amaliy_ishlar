@@ -92,10 +92,41 @@
 
 # uzunligi([5,8,9,8,9,2,15])
 #----------------------------------------------------------------
-def avg(*args):
-    return sum(args)/len(args)
+# def avg(*args):
+#     return sum(args)/len(args)
    
-print(avg(3,5,5,2,5,8,5),2)
+# print(avg(3,5,5,2,5,8,5))
+#-----------------------------------------------------------    
+# def bahola(ismlar):
+#     baholar={}
+#     while ismlar:
+#         ism=ismlar.pop()
+#         baho=input(f"Talaba {ism.title()} ning bahosini kiriting: ")
+#         baholar[ism]=baho
+#     return baholar
+
+# talabalar=['hasan','husan','olim','botir']
+# baholar=bahola(talabalar)
+# print(baholar)
+#-----------------------------------------------------------
+# def katta(matnlar):
+#     for i in range(len(matnlar)):
+#         matnlar[i]=matnlar[i].title()
+# sozlar=['xasan', 'xusan', 'olim', 'behruz']
+# soz1=katta(sozlar[:])
+# katta(sozlar)
+# print(sozlar)
+ #-----------------------------------------------------------
+# def katta(matnlar):
+#     for i in range(len(matnlar)):
+#         matnlar[i]=matnlar[i].title()
+# sozlar=['xasan', 'xusan', 'olim', 'behruz']
+# soz1=katta(sozlar[:])
+# katta(sozlar)
+# print(sozlar)
+#--------------------------------------------------------------
+
+
 
     
 
