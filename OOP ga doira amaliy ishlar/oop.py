@@ -41,15 +41,15 @@
 
 # print(user1.get_info())
 #-----------------------------------------------------------------------------
-class User:
+# class User:
 
-    def get_ism(self):
-        return self.ism
-    def get_familiya(self):
-        return self.familiya
+#     def get_ism(self):
+#         return self.ism
+#     def get_familiya(self):
+#         return self.familiya
     
-    def get_malumot(self):
-        return (f"{self.ism} {self.familiya}")
+#     def get_malumot(self):
+#         return (f"{self.ism} {self.familiya}")
 
-talaba1=User ('sdsds','hakimov')
-print(talaba1.get_malumot())
+# talaba1=User ('sdsds','hakimov')
+# print(talaba1.get_malumot())
